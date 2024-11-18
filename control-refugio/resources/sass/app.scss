@@ -1,0 +1,37 @@
+// Fonts
+@import url('https://fonts.bunny.net/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import 'bootstrap/scss/bootstrap';
+
+//icons
+@import 'bootstrap-icons/font/bootstrap-icons.css';
+
+nav {
+    color: whitesmoke !important;
+
+    .nav-link {
+        color: inherit !important;
+    }
+}
+
+.logo-brand {
+    width: 32px;
+    filter: invert(1);
+}
+
+.nav-bg {
+    background-color: #399238;
+}
+
+
+.carousel {
+    max-width: 600px !important;
+}
+
+.carousel-img {
+    max-width: 600px !important;
+}
