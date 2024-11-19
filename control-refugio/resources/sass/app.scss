@@ -10,6 +10,14 @@
 //icons
 @import 'bootstrap-icons/font/bootstrap-icons.css';
 
+body {
+    background: url("https://images.pexels.com/photos/2607541/pexels-photo-2607541.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
 nav {
     color: whitesmoke !important;
 
@@ -29,9 +37,56 @@ nav {
 
 
 .carousel {
-    max-width: 600px !important;
+    max-width: 500px !important;
 }
 
 .carousel-img {
-    max-width: 600px !important;
+    border-radius: 5px;
+    max-width: 500px !important;
+    max-height: 300px;
 }
+
+.card-principal {
+    box-shadow: rgba(0, 0, 0, 0.5) 0px 54px 55px, rgba(0, 0, 0, 0.4) 0px -12px 30px, rgba(0, 0, 0, 0.4) 0px 4px 6px, rgba(0, 0, 0, 0.5) 0px 12px 13px, rgba(0, 0, 0, 0.3) 0px -3px 5px;
+}
+
+.profile-picture {
+    opacity: 0.75;
+    height: 250px;
+    width: 250px;
+    position: relative;
+    overflow: hidden;
+  
+    /* default image */
+  
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 0 8px 6px -6px black;
+  }
+
+  .file-uploader {
+    /* make it invisible */
+    opacity: 0;
+    /* make it take the full height and width of the parent container */
+    height: 100%;
+    width: 100%;
+    cursor: pointer;
+    /* make it absolute */
+    position: absolute;
+    top: 0%;
+    left: 0%;
+  }
+
+  .btn-actions:hover {
+    color: whitesmoke !important;
+  }
+
+  .gallery-img {
+    max-width: 200px;
+    max-height: 200px;
+  }
+
+  .profile-img {
+    max-width: 200px;
+  }

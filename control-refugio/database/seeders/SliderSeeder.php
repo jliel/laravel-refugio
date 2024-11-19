@@ -17,15 +17,15 @@ class SliderSeeder extends Seeder
         $sliders = [
             [
                 'title' => 'Image 1',
-                'url' => 'https://images.unsplash.com/photo-1601758176559-76c75ead317a?q=80&w=1376&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'
+                'url' => 'https://images.pexels.com/photos/1108099/pexels-photo-1108099.jpeg'
             ],
             [
                 'title' => 'Image 2',
-                'url' => 'https://images.unsplash.com/photo-1601758063541-d2f50b4aafb2?q=80&w=1405&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'
+                'url' => 'https://images.pexels.com/photos/1633522/pexels-photo-1633522.jpeg'
             ],
             [
                 'title' => 'Image 3',
-                'url' => 'https://images.unsplash.com/photo-1601758261049-55d060e1159a?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'
+                'url' => 'https://images.pexels.com/photos/333083/pexels-photo-333083.jpeg'
             ]
         ];
 

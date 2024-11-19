@@ -3,6 +3,9 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Models\Perro;
+use Illuminate\Support\Facades\DB;
+use Illuminate\Pagination\Paginator;
 
 class HomeController extends Controller
 {
@@ -15,6 +18,8 @@ class HomeController extends Controller
      */
     public function index()
     {
-        return view('home');
+        Paginator::useBootstrap();
+        $perros = DB::table('perros')->paginate(5);
+        return view('home', compact('perros'));
     }
 }
